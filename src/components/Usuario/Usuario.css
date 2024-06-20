@@ -1,0 +1,323 @@
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .input-box {
+    margin: 20px 0;
+  }
+
+  .btn,
+  .btn-modal {
+    margin-left: 0;
+  }
+
+  .input-s {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 100%;
+  }
+}
+
+.login-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../assets/image/agua.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+  color: #fff;
+
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.wrapper button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+
+}
+
+.custom-select-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Estilos para el select */
+.custom-select {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  outline: none;
+
+  border-radius: 60px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+/* Estilos para el texto de placeholder */
+.custom-select-placeholder {
+  color: #fff;
+}
+
+/* Estilos para el ícono */
+.custom-select-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #fff;
+}
+
+/*paginas*/
+body {
+  background: #DCF2F1;
+}
+
+.Usuario .Bodega {
+  margin-top: 0;
+  padding: 5px 0 5px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.btn {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #365486;
+  padding: 12px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.center-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+
+}
+
+.btn-modal {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #365486;
+  padding: 8px 10px;
+  font-size: 11px;
+  margin-left: 7px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.btn span {
+  z-index: 1;
+  position: relative;
+}
+
+.btn:hover {
+  color: #000;
+}
+
+.btn::before {
+  content: "";
+  background: #7FC7D9;
+  border-radius: 10px;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn-modal:hover {
+  color: #000000;
+}
+
+
+.btn-modal {
+  font-weight: 700;
+  color: #fff;
+  background-color: #365486;
+  padding: 12px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+
+.btn-modal span {
+  z-index: 1;
+  position: relative;
+}
+
+
+
+.btn-modal::before {
+  content: "";
+  background: #7FC7D9;
+  border-radius: 10px;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-modal:hover::before {
+  width: 100%;
+}
+
+.input-s {
+  width: 35%;
+  background: #365486;
+  border: 1px solid rgba(3, 3, 3, 0.5);
+  border-radius: 20px;
+  color: #070707;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.input-s:focus {
+  background: rgb(255, 255, 255);
+  color: #121212;
+}
+
+.input-s::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.input-s:focus::placeholder {
+  color: #000000;
+  opacity: 0.8;
+}
+
+
+.custom-input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(3, 3, 3, 0.5);
+  border-radius: 20px;
+  color: #070707;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+  background: rgb(248, 246, 246);
+  color: #121212;
+}
+
+.custom-input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #020202;
+}
+
+.custom-input:focus::placeholder {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.table-container {
+  margin-left: 50px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
